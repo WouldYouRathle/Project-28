@@ -1,11 +1,44 @@
 ---
-title: "Post: Notice"
+title: "First Month"
+excerpt_separator: "<!--more-->"
 categories:
   - Blog
-tags:
-  - Post Formats
-  - notice
 ---
+
+<!--more-->
+
+This post has a manual excerpt `<!--more-->` set after the second paragraph. The following YAML Front Matter has also be applied:
+
+```yaml
+excerpt_separator: "<!--more-->"
+```
+
+
+You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+```ruby
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+```
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
+
+
+> Only one thing is impossible for God: To find any sense in any copyright law on the planet.
+  
+> <cite><a href="http://www.brainyquote.com/quotes/quotes/m/marktwain163473.html">Mark Twain</a></cite>
+
 
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.
 
@@ -66,3 +99,4 @@ Or you could skip the capture and stick with straight HTML.
   <h4>Message</h4>
   <p>A basic message.</p>
 </div>
+
