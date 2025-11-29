@@ -68,23 +68,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
-
-header:
-  background: "#2a2a2a"    # Dark grey header
-  text: "#ffffff"          # White text for header
-
-sidebar:
-  background: "#1e1e1e"    # Darker grey sidebar
-  text: "#ffffff"          # White text for sidebar links
-
-body:
-  background: "#f5f5f5"    # Light grey main background
-  text: "#ffffff"           # If you want the text to be white on sidebar/sections
-  link: "#10a37f"           # Accent color for links/buttons (ChatGPT green)
-
 footer:
-  background: "#2a2a2a"    # Match header
-  text: "#ffffff"          # Footer text in white
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
