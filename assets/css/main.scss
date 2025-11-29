@@ -1,13 +1,44 @@
 ---
 ---
 
-/* Project custom colors */
-$body-bg-color: #f5f5f5;
-$body-text-color: #ffffff;
-$link-color: #10a37f;
-$sidebar-bg-color: #1e1e1e;
-$sidebar-text-color: #ffffff;
-$header-bg-color: #2a2a2a;
-$footer-bg-color: #2a2a2a;
+/* ============================================================
+   Project X - ChatGPT-inspired color overrides
+   Based on Minimal Mistakes theme
+============================================================ */
 
+/* -------------------------
+   Theme color variables
+------------------------- */
+$body-bg-color: #f5f5f5;       // Light grey main background
+$body-text-color: #ffffff;     // White main text (for sidebar/sections)
+$link-color: #10a37f;          // Accent green for links/buttons
+$link-hover-color: #12b78e;
+
+$header-bg-color: #2a2a2a;     // Dark grey header
+$header-text-color: #ffffff;
+
+$sidebar-bg-color: #1e1e1e;    // Darker grey sidebar
+$sidebar-text-color: #ffffff;
+
+$footer-bg-color: #2a2a2a;     // Dark grey footer
+$footer-text-color: #ffffff;
+
+/* -------------------------
+   Optional: additional tweaks
+------------------------- */
+
+/* Make cards slightly lighter than sidebar */
+$card-bg-color: #2e2e2e;
+$card-text-color: #ffffff;
+
+/* Buttons / CTA */
+$primary-color: $link-color;
+$primary-hover-color: $link-hover-color;
+
+/* Horizontal rules */
+$hr-color: #444444;
+
+/* -------------------------
+   Import the theme
+------------------------- */
 @import "minimal-mistakes";
