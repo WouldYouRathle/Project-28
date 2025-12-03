@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Tyler Jones"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/avatar.png"
   bio    : "Welcome to Project 28, the ultimate men's support group."
   links:
     - label: "Twitter"
