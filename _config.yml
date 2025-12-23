@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Tyler Jones"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/avatar.png"
   bio    : "Welcome to Project 28, the ultimate men's support group."
   links:
     - label: "Twitter"
@@ -89,6 +89,8 @@ defaults:
       comments: true
       share: true
       related: true
+      css:
+        - /assets/css/custom.css
   # _pages
   - scope:
       path: "_pages"
@@ -96,6 +98,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      css:
+        - /assets/css/custom.css
 
 category_archive:
   type: liquid
